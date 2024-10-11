@@ -1,0 +1,136 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(73, 68, 68);
+    color: white;
+    text-align: center;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+header h1{
+    border: 3px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 40px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner .welcome{
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 42%;
+    background-color: rgb(51, 44, 44);
+    color: white;
+}
+
+.banner h2{
+    font-size: 70px;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
+}
+
+nav{
+    background-color: lightgrey;
+    padding: 20px;
+    text-wrap: nowrap;
+    position: sticky;
+    top: 90px;
+}
+
+nav ul{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(129, 127, 127);
+}
+
+nav li a.join{
+    color: rgb(226, 84, 84);
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+main h2{
+    font-size: 36px;
+    color: rgb(226, 84, 84);
+}
+
+main p{
+    line-height: 2em;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    text-wrap: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width: 41%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+
+.join-game{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 60px 20px;
+    color: rgb(129, 127, 127);
+}
+
+form h2{
+    font-size: 30px;
+}
+
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 5px solid white;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(73, 68, 68);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

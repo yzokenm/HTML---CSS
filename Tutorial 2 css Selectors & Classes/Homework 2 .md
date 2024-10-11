@@ -1,0 +1,5 @@
+Ex1: Write a selector to target an h1 element with a class inside a div.(h1 nomli HTML tag yarating va unga class bering. orqa fondini o'zgartiring, fonti, size)
+Ex2: Select all even p tags, add a border, change the background color, font, and size.(barcha juft turdagi p taglarning select qiling av border bering. orqa fondini, hajmini ozgartiring)
+Ex3: Create a link tag, select the href attribute, make it underlined, and change its color.(link tag yasang va href atrabyut orqali select qilib underline hosil qiling va rangini ozgartiring)
+Ex4: Create 4 link tags. Paint links ending with ".com" in green. If the link includes "google," paint it blue. ".com" bilan tugagan linklarning yashio ranga biyang agar unda google sozi bolsa uni kok qiling
+Ex5: Write a selector to target the last child of a parent element. DIV element ichidagi oxirigi p elementni select qiling

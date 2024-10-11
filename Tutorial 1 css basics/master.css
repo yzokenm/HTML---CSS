@@ -1,0 +1,31 @@
+h1{
+    color: red;
+    background-color: aquamarine;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    text-decoration: line-through;
+}
+p{
+    padding: 10px;
+    background-color: aqua;
+    font-size: 20px;
+    column-count: 2;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    width: 100%;
+    border: 5px solid red;
+    font-size: 30px;
+
+    li:nth-child(odd){
+        color: red;
+    }
+    
+    li:nth-child(even){
+        color: green;
+    }
+}
