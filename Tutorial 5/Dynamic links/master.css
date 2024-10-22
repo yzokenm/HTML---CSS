@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: lightblue;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header ul{
+    text-align: end;
+}
+
+header ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: end;
+}
+
+main section{
+    text-align: center;
+    padding: 10px;
+    min-height: 100vh;
+    line-height: 30px;
+
+    scroll-snap-type: y mandatory;
+    scroll-margin-top: 50px;
+}
+
+main section:first-of-type{
+    padding-top: 70px;
+}
+
+main section:nth-child(odd){
+    background-color: green;
+}
+
+main section:nth-child(even){
+    background-color: aquamarine;
+}
