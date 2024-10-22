@@ -23,4 +23,6 @@ Pseudo element tasks:
 8 => Target all p tags and change the background color an font color  susing selection pseudo element
 9 => Add extra content at the end of p tag using ::after and inspect it in browser
 10 => same task with prevous but with ::before element
+
+
 -->
