@@ -71,6 +71,7 @@ nav ul{
 nav li{
     width: 25%;
     display: inline-block;
+    font-size: 25px;
 }
 
 nav li a{
@@ -112,7 +113,7 @@ main ul.images{
 main ul.images li{
     margin: 20px 5%;
     display: inline-block;
-    width: 41%;
+    width: 40%;
 }
 
 main ul.images li img{
@@ -132,7 +133,6 @@ form h2{
 }
 
 form input{
-    
     padding: 10px 20px;
     margin: 20px 0;
     text-align: center;
@@ -155,7 +155,7 @@ footer{
 
 /* Pseudo classes and elements */
 
-main p::before{
+main p::after{
     content: '...';
 }
 
@@ -182,6 +182,76 @@ form input:valid{
     border: 4px solid green;
 }
 
-form input:invalid{
-    border: 4px solid red;
+form input:focus{
+    border: 2px solid lightslategrey;
+}
+
+@media screen and (max-width: 1400px){
+    section.banner .welcome h2{
+        font-size: 50px;
+    }
+}
+
+/* Responsive design => intro to media queries */
+
+@media screen and (max-width: 1400px){
+    section.banner .welcome h2{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    section.banner .welcome h2{
+        font-size: 30px;
+    }
+
+    nav ul li{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .banner div.welcome{
+        position: relative !important;
+        text-align: center;
+        padding: 10px !important;
+    }
+
+    .banner .welcome br{
+        display: none;
+    }
+
+    .banner .welcome h2{
+        font-size: 20px !important;
+    }
+
+    .banner .welcome span{
+        font-size: 1em;
+    }
+
+    .images li{
+        width: 100% !important;
+        margin: 20px auto !important;
+        display: block !important;
+
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    nav li{
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+        position: relative;
+        text-align: center;
+    }
+
+    header{
+        position: relative;
+    }
+
+    nav{
+        top: 0;
+    }
 }

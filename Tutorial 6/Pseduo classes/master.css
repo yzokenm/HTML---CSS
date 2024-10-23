@@ -1,0 +1,39 @@
+form button:active{
+    background-color: green;
+    color: red;
+}
+
+form input:hover{
+    background-color: lightblue;
+    outline: none;
+}
+
+/* form button:hover{
+    background-color: lightblue;
+} */
+
+form input:focus{
+    /* border: 2px solid red;
+    padding: 10px; */
+}
+form input:valid{
+    border: 1px solid green;
+}
+
+form input:invalid{
+    border: 1px solid red;
+}
+
+form button::after{
+    content: "...";
+}
+
+div::selection{
+
+    background-color: black;
+    color: white;
+}
+
+div span{
+    background-color: orange;
+}
