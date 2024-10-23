@@ -1,3 +1,5 @@
+/* HTML5 Semantic tags */
+
 body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
@@ -101,36 +103,18 @@ main p{
     line-height: 2em;
 }
 
-main p::before{
-    content: '...';
-}
-
 main ul.images{
     margin: 80px 0;
     text-align: center;
     text-wrap: nowrap;
 }
 
-main article p::first-line{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-main article p::first-letter{
-    font-size: 40px;
-}
-
-main article p::selection{
-    background-color: black;
-    color: white;
-}
-
-
 main ul.images li{
     margin: 20px 5%;
     display: inline-block;
     width: 41%;
 }
+
 main ul.images li img{
     max-width: 100%;
 }
@@ -156,18 +140,6 @@ form input{
     border-radius: 30px;
     border: 3px solid white;
 }
-form input:hover{
-    border: 4px solid lightgrey;
-    outline: none;
-}
-
-form input:valid{
-    border: 4px solid green;
-}
-
-form input:invalid{
-    border: 4px solid red;
-}
 
 footer{
     padding: 10px;
@@ -179,4 +151,37 @@ footer{
 
     background-color: rgb(73, 68, 68);
     color: white;
+}
+
+/* Pseudo classes and elements */
+
+main p::before{
+    content: '...';
+}
+
+main article p::first-line{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main article p::first-letter{
+    font-size: 40px;
+}
+
+main article p::selection{
+    background-color: black;
+    color: white;
+}
+
+form input:hover{
+    border: 4px solid lightgrey;
+    outline: none;
+}
+
+form input:valid{
+    border: 4px solid green;
+}
+
+form input:invalid{
+    border: 4px solid red;
 }
