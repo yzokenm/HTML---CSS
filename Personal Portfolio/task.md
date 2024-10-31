@@ -12,7 +12,6 @@ Requirements:
 
     2 => Classes and Selectors:
         Use classes for styling specific sections (e.g., .projects-section, .about-section) and apply consistent naming conventions.
-        Apply CSS selectors to style elements globally and contextually (e.g., .projects-section h2).
 
     3 => Pseudo-Classes and Pseudo-Elements:
         Use pseudo-classes like :hover to change the appearance of links, buttons, or images when hovered over.
@@ -38,3 +37,43 @@ Requirements:
         
     Tools:
         HTML/CSS only (no frameworks or libraries for this exercise).
+        
+
+Loyiha: Shaxsiy Portfolio veb-sayti
+
+Talablar:
+
+1 => HTML tuzilishi va semantik: <header>, <nav>, <section>, <article>, <footer> va boshqalar kabi tegishli HTML5 semantik teglaridan foydalaning.
+    Quyidagilar uchun bo'limlar yarating:
+        About me
+        Projects
+        Contact
+        Skills
+
+    2 => Classes va Selectors:
+        Muayyan bo'limlarni (masalan, .proyektlar-bo'limi, .haqida-bo'lim) uslublash uchun classlardan foydalaning va Naming convention ga etibor bering
+
+    3 => Pseudo-class va element lar:
+        Havolalar, tugmalar yoki tasvirlar ko'rinishini o'zgartirish uchun :hover kabi psevdo-class lardan foydalaning.
+        Ba'zi elementlarga dekorativ tarkib qo'shish uchun :before oldin yoki :after so'ng psevdoelementlardan foydalaning (masalan, sarlavhalar ostiga chizish)
+
+    4 => Position & Layouts:
+        position(fixed, sticky, realtive, absolute) kabi CSS xususiyatlaridan foydalaning.
+        Tartib yaxshi tuzilgan va sezgir ekanligiga ishonch hosil qiling.
+        POSITION dan foydalanib, yuqori qismida yopishqoq navigatsiya panelini qo'shing: sticky;
+
+    5 => ID bilan dinamik linklar:
+        Sahifada navigatsiya havolalarini yaratish uchun href va identifikatorlardan foydalaning, bu foydalanuvchilarga boʻlimlar (masalan, About, Projetcs, Contact) sahifalar oʻrtasiga oʻtish imkonini beradi.
+        Ushbu havolalarning tegishli bo'limlarga silliq o'tishini ta'minlang.
+
+    6 => Media soʻrovlari:
+        Portfelni media so'rovlari bilan sezgir qiling.
+        Tartib mobildan ish stoligacha bo'lgan turli ekran o'lchamlariga mos kelishiga ishonch hosil qiling.
+        Planshetlar va mobil ekranlar uchun kamida 2 ta uzilish nuqtasini taqdim eting.
+
+    7 => Bonus (ixtiyoriy):
+        Portfelning koʻrinishini va hissiyotini yaxshilash uchun oʻtish yoki kalit kadrlar yordamida oddiy oʻtish yoki animatsiyalarni qoʻshing (masalan, tugmachani koʻtarish effektlari, silliq aylantirish).
+        Forma yasang va uni valid invalid sudo classlar bilan taminlang.
+
+    Asboblar:
+    Faqat HTML/CSS (ushbu mashq uchun ramkalar yoki kutubxonalar yo'q).
