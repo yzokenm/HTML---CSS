@@ -39,7 +39,7 @@ Requirements:
         HTML/CSS only (no frameworks or libraries for this exercise).
         
 
-Loyiha: Shaxsiy Portfolio veb-sayti
+Loyiha: Shaxsiy Portfolio veb-sayti => My-Portfolio
 
 Talablar:
 
