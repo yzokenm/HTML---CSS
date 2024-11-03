@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header style */
+
+header{
+    padding: 5px;
+    background-color: slategray;
+}
+
+header nav{
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+    width: 100px;
+}
+
+header a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 22px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* main style */
