@@ -34,7 +34,7 @@ header ul li{
 header a{
     text-decoration: none;
     color: blueviolet;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header a:hover{
@@ -44,16 +44,13 @@ header a:hover{
 /* main style */
 main section{
     padding: 10px;
+    width: 100%;
     min-height: 100vh;
     text-align: center;
 
     scroll-snap-type: y mandatory;
     scroll-margin-top: 65px;
     
-}
-
-main section{
-    width: 100%;
 }
 
 main section:nth-child(odd){
@@ -66,8 +63,8 @@ main section:nth-child(even){
 
 /* About me style */
 main section#about_me img{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
 
@@ -87,6 +84,7 @@ main section#projects {
 
 main section#projects img{
     width: 100%;
+    height: 100%;
 }
 
 main section#projects div.welcome{
@@ -158,7 +156,20 @@ footer{
     header a{
         font-size: 15px;
     }
+
     header li{
         width: 80px !important;
+    }
+
+    main section#about_me img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+}
+
+@media screen and (max-width: 700px){
+    main section#about_me img{
+        width: 350px;
+        height: 350px;
     }
 }
