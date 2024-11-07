@@ -1,0 +1,1 @@
+We have reviewed Position and Media queries for students to understand fully

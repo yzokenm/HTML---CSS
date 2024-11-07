@@ -12,9 +12,8 @@ The main axis is defined by flex-direction, which has four possible values:
     - column-reverse
 
 Should you choose row or row-reverse, your main axis will run along the row in the inline direction.
-RASM HERE
-
-
 Choose column or column-reverse and your main axis will run in the block direction, from the top of the page to the bottom.
 
-RASM HERE:
+![alt text](image-1.png)
+
+Official Documentation: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
