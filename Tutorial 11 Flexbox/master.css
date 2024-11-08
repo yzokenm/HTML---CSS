@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+main section div{
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

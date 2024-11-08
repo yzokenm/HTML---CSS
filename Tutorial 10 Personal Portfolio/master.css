@@ -132,10 +132,19 @@ main section#contact form input:where([type=email], [type=text], [type=password]
     }
 }
 
-main section#contact form input:nth-child(odd){
-    margin: 5px;
+main section#contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
+/* Skills style here */
+section#skills div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
 /* Footer style */
 footer{
@@ -165,6 +174,24 @@ footer{
         width: 250px !important;
         height: 250px !important;
     }
+
+    section#skills div{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }  
+    
+    section#projects div.welcome{
+        width: 100% !important;
+        position: relative;
+        padding: 5px !important;
+    }
+    
+    section#projects div.welcome h2{
+        font-size: 35px !important;
+    }   
 }
 
 @media screen and (max-width: 700px){
