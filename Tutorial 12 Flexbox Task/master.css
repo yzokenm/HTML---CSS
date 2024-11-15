@@ -1,27 +1,63 @@
-body{
-    background-color: antiquewhite;
+html{
+    scroll-behavior: smooth;
 }
 
-main{
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
     display: flex;
     flex-direction: row;
-    gap: 5px;
 }
 
-main aside{
+section > aside{
     padding: 10px;
     width: 20%;
-    height: 100vh;
+    height: 100dvh;
     border: 1px solid black;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+
+    position: sticky;
+    top: 0;
 }
 
-main section{
-    padding: 10px;
+section > aside a{
+    width: 100%;
+
+    display: flex;    
+    flex-direction: row;
+    gap: 10px;
+}
+
+section > aside > section{
+    width: 100%;
+}
+
+section > main{
     width: 80%;
-    height: 100vh;
     border: 1px solid black;
+    text-align: center;
+}
+
+section > main > section{
+    scroll-snap-type: y mandatory;
+    height: 100dvh;
+
+    color: black;
+    text-align: center;
+}
+
+section > main > section:nth-child(odd){
+    background-color: beige;
+}
+
+section > main > section:nth-child(even){
+    background-color:bisque;
 }
