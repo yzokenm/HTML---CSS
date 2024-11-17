@@ -36,7 +36,7 @@ section > aside a{
     gap: 10px;
 }
 
-section > aside > section{
+section > aside > nav{
     width: 100%;
 }
 
