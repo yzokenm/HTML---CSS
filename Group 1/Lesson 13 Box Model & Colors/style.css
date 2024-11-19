@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one{
+    background-color: green;
+    color: white;
+}
+
+.box-two{
+    background-color: blue;
+    color: white;
+}
