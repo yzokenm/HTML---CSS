@@ -1,3 +1,8 @@
+Today's Agenda:
+    Lists:
+        1: ul 
+        2: ol
+
 Lists => Ordered/Unordered list
 style => list-style-type: none/disc/circle/custom
 float => Float CSS xususiyati, bu - elementni konteynerning chap yoki o'ng tomoniga joylashtiradi va matn va inline elementlarni uning atrofida o'rashga imkon beradi. Element sahifaning oddiy oqimidan o'chiriladi, lekin hali ham oqimning bir qismi bo'lib qoladi
@@ -18,3 +23,25 @@ li child is set to float and there is a problem unless we set UL to overflow hid
     The <li> elements are floated, causing them to align horizontally.
     Without overflow: hidden;, the <ul> would have no height, and the black background would disappear.
     With overflow: hidden;, the <ul> expands to fully contain its floated <li> children, ensuring the black background remains visible and properly encloses the content.
+
+Task: U/I of the layout
+
+-------------------------------------
+         My Navigation Menu
+-------------------------------------
+|  Home  |  About  |  Contact  |
+-------------------------------------
+
+-------------------------------------
+       Favorite Websites
+-------------------------------------
+1. Google
+2. YouTube
+3. Instagram
+-------------------------------------
+         My Task List
+-------------------------------------
+- Complete HTML assignment.
+- Practice CSS.
+- Learn JavaScript.
+-------------------------------------
