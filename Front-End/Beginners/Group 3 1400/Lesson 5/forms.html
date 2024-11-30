@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul{
+        /* list-style-type: circle/disc/none */
+        list-style-type: none;
+        background-color: black;
+        overflow: hidden;
+        
+    }
+    li{
+        margin: 5px;
+        padding: 5px;
+        border-radius: 10px;
+        color: yellow;
+        float: left;
+    }
+</style>
+<body>
+    <ul>
+        <a href="https://www.google.com" target="_blank"><li>Home</li></a>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Projects</li>
+    </ul>
+
+    <form>
+        --------------------------------------------------------<br>
+        <label for="username">Username</label><br>
+        <input type="text" name="username" placeholder="Enter yout username"><br><br>
+        
+        <label for="email">Elektron pochtangizni kiriting</label><br>
+        <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+        
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="Password"><br><br>
+
+        --------------------------------------------------------<br>
+        
+        <label for="checkbox">Sizda qanday avtomobil bor?</label><br><br>
+
+        <input type="checkbox" name="vehicle1" value="bike">
+        <label for="vehicle1"> I have a bike</label><br>
+
+        <input type="checkbox" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+
+        <input type="checkbox" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+
+        <!-- <label for="fruits">Quyidagi mevalardan qaysi biri sizga yoqadi?</label><br>
+        <input type="radio" id="1" name="apple" value="apple">
+        <label for="apple">Apple</label>
+
+        <input type="radio" id="2" name="bananan" value="bananan">
+        <label for="bananan">Banana</label>
+
+        <input type="radio" id="3" name="orange" value="orange">
+        <label for="orange">Orange</label> -->
+
+
+
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0 - 30</label><br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31 - 60</label><br>  
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">61 - 100</label><br><br>
+        <input type="submit" value="Submit"><br><br>
+
+
+        -----------------------------------------<br>
+        <textarea name="message" rows="20" cols="30"></textarea><br><br>
+        
+        -----------------------------------------<br>
+        <select name="countries">
+            <option value="uzbekistan">uzbekistan</option>
+            <option value="USA">USA</option>
+            <option value="russia">Russia</option>
+        </select>
+    </form>
+
+</body>
+</html>
