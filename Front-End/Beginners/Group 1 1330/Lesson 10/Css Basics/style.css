@@ -1,0 +1,12 @@
+footer{
+    background-color: red;
+}
+
+footer p{
+    color: yellow;
+}
+
+main img{
+    width: 400px;
+    height: 400px;
+}
