@@ -1,0 +1,53 @@
+body{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.img1 {
+    width: 200px; /* Adjust the size as needed */
+    transition: transform 1s; /* Smooth transition */
+  }
+  
+.img1:hover {
+    transform: rotate(360deg);
+}
+
+div.circle{
+    width: 100px;
+    padding: 50px 0;
+    margin: 60px auto;
+    line-height: 0;
+    border-radius: 50px;
+    background-color: pink;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s, transform 0.3s 1s ease-in-out;
+}
+
+div.circle:hover{
+    background-color: salmon;
+    transform: rotate(360deg);
+}
+
+div.square{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: #3dccc7;
+    transition-duration: 500ms;
+    /* transition-property: background transform; */
+    transition-timing-function: cubic-bezier(0.35, -0.2, 0.58, 1);
+}
+
+.square:hover{
+    background-color: #ff6b6b;
+    transform: rotate(45deg);
+}
