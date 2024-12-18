@@ -60,6 +60,10 @@ section.panel{
     grid-template-rows: 1fr 3fr;
 }
 
+.panel.photos img{
+    height: 100%;
+}
+
 .panel.photos div, .panel.about div{
     padding: 30px 60px;
     background-color: #eeeee7;

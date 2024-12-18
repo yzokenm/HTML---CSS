@@ -1,0 +1,1 @@
+1 => Semantic teglarning ko'rib chiqish

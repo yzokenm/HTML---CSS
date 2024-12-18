@@ -67,3 +67,19 @@ main .hello{
     border-radius: 10px;
 }
 
+/* responsive */
+@media screen and (max-width: 960px){
+    main img{
+        grid-column: 2 / span 10;
+    }
+
+    main div.welcome{
+        grid-column: 3 / span 8;
+        text-align: center;
+    }
+
+    div.hello{
+        grid-column: 3 / span 8;
+        text-align: center;
+    }
+}
