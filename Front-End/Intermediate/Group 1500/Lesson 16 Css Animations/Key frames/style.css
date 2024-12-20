@@ -43,14 +43,14 @@ html, body{
     top: -40px;
     left: 0;
     animation-name: drive;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 @keyframes drive {
-    from{
-        transform: translate(0);
-    }
-    to{
-        transform: translateX(650px);
-    }
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(1400px);
+  }
 }

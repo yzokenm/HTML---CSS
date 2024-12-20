@@ -13,7 +13,7 @@ body{
 
 .img1 {
     width: 200px; /* Adjust the size as needed */
-    transition: transform 1s; /* Smooth transition */
+    transition: transform 1s ease-in-out; /* Smooth transition */
   }
   
 .img1:hover {

@@ -23,7 +23,7 @@ div.container{
 
 div.one{
     background-color: #00adba;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0,-0.88, 0.14, 1.01);
 }
 
 div.two{
