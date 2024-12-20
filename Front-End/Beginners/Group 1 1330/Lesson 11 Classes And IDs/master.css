@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header style */
+.header nav{
+    padding: 20px;
+    background-color:antiquewhite;
+    text-align: center;
+}
+.header nav a{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header nav a:hover{
+    text-decoration: underline;
+}
+
+/* main style */
+main{
+    text-align: center;
+    background-color: black;
+    line-height: 40px;
+}
+
+h1.articles-page{
+    font-size: 40px;
+}
+
+main article div p{
+    line-height: 30px;
+    column-count: 2;
+    font-weight: bold;
+}
+
+div.description img{
+    width: 300px;
+    /* height: 300px;
+    object-fit: contain; */
+    border-radius: 10px;
+}
+
+/* forom styles */
+form label{
+    font-size: 20px;
+}
+
+form input[type="text"]{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* footer style */
+footer{
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/* Classes Selection */
+
+
+/* ID's selections */
+
+
+/* Direct Selection */
+
+/* Attribute Selection */
