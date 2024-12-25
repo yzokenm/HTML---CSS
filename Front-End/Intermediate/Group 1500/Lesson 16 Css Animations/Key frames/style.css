@@ -72,7 +72,7 @@ html, body{
     animation-fill-mode: both; 
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;    */
-    animation: drive 5s infinite ease-in;
+    animation: drive 5s infinite linear, jump 0.3s 3s ease;
 
 }
 
@@ -90,11 +90,17 @@ html, body{
 }
 
 @keyframes drive {
-  from{transform: translateX(-200px);}
+  from{transform: translateX(0px);}
   to{transform: translateX(1800px);}
 }
 
 @keyframes cloud {
     from{left: -200px;}
     to{left: 100%;}
+}
+
+@keyframes jump{
+    0%{ top: -40px }
+    50%{ top: -200px }
+    /* 100%{ top: -40px } */
 }
