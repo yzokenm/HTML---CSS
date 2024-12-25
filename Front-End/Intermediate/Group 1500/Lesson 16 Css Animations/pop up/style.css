@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #222222;
+}
+
+div.pop-up{
+    width: 500px;
+
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+}
+
+div.container{
+    padding: 20px 30px;
+    background-color: #f0e4d2;
+
+    position: absolute;
+    top: 60px;
+}
+
+.container .cross{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #222222;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+input{
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #333;
+}
+
+button{
+    padding: 5px;
+    background-color: #222222;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    margin-left: -10px;
+    border: 1px solid #333;
+}
+
+/* pop up animations here */
+/* .pop-up{
+    transform-origin: 10px 10px;
+    top: -400px !important;
+    animation: pop-up 0.3s forwards,
+               swing 2s 0.8s ease forwards;
+}
+
+@keyframes pop-up{
+    0%{opacity: 0;}
+    50%{transform: translateY(700px);}
+    100%{transform: translateY(650px); opacity: 1;}
+}
+
+@keyframes swing {
+   0%{ transform: translateY(650px) rotateZ(0deg);} 
+   40%{ transform: translateY(650px) rotateZ(90deg);} 
+   70%{ transform: translateY(650px) rotateZ(70deg);} 
+   100%{ transform: translateY(650px) rotateZ(75deg);} 
+} */
