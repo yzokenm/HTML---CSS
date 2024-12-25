@@ -23,11 +23,20 @@ html, body{
     width: 200px;
     top: 120px;
     opacity: 0.5;
-    animation: wind 50s linear infinite reverse;
+    /* animation-name: cloud;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinte;
+    animation-direction: alternate-reverse; */
+    animation: cloud 50s linear infinite reverse;
 }
 
 .cloud:nth-child(2){
-    animation: wind 30s linear infinite reverse;
+    /* animation-name: cloud;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinte; */
+    animation: cloud 30s linear infinite reverse;
     
 }
   
@@ -58,31 +67,34 @@ html, body{
     position: absolute;
     top: -40px;
     left: 0;
-    animation-name: drive;
-    animation-duration: 5s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+    /* animation-name: drive;
+    animation-duration: 3s;
+    animation-fill-mode: both; 
     animation-timing-function: ease-in;
+    animation-iteration-count: infinite;    */
+    animation: drive 5s infinite ease-in;
+
 }
 
 .luigi{
     position: absolute;
     left: 0;
     top: 50px;
-    animation-name: drive;
-    animation-duration: 4s;
-    animation-fill-mode: both;
+    /* animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: both; 
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in; */
+    animation: drive 4s infinite ease-in alternate-reverse;
 }
 
 @keyframes drive {
   from{transform: translateX(-200px);}
-  to{transform: translateX(1400px);}
+  to{transform: translateX(1800px);}
 }
 
-@keyframes wind {
-    from{left: -300px;}
+@keyframes cloud {
+    from{left: -200px;}
     to{left: 100%;}
 }
